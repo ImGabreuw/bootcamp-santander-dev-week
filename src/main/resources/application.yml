@@ -1,0 +1,4 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /bootcamp # Contexto da aplicação (http://localhost:8080/bootcamp/)
