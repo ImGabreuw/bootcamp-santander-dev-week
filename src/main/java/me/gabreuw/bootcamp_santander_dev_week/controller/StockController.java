@@ -5,6 +5,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +41,7 @@ public class StockController {
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public ResponseEntity<StockDTO> save(@RequestBody StockDTO dto) {
+    public ResponseEntity<StockDTO> save(@Valid @RequestBody StockDTO dto) {
         return ResponseEntity.ok(dto);
     }
 
@@ -48,7 +49,7 @@ public class StockController {
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public ResponseEntity<StockDTO> update(@RequestBody StockDTO dto) {
+    public ResponseEntity<StockDTO> update(@Valid @RequestBody StockDTO dto) {
         return ResponseEntity.ok(dto);
     }
 

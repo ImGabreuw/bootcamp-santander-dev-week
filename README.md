@@ -18,6 +18,7 @@
 - [X] Criar a camanda **Controller** 
 - [X] Criar as APIs 
 - [X] Documentar as APIs com [OpenAPI](https://www.openapis.org/)
+- [X] Aplicar validações de dados
 
 ## ✏️ Modelo conceitual
 
