@@ -7,13 +7,13 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres # 5432 = porta externa do Docker | postgres = nome da image do banco de dados no Docker
-    username: postgres
-    password: docker
+    url: postgres://epmvyvbxsjzfrg:7093bcbf647a35302b89f061696472371bc52eec5fd1604e8886a2dc31c72506@ec2-34-193-113-223.compute-1.amazonaws.com:5432/d727g8u55nr8sl # 5432 = porta externa do Docker | postgres = nome da image do banco de dados no Docker
+    username: epmvyvbxsjzfrg
+    password: 7093bcbf647a35302b89f061696472371bc52eec5fd1604e8886a2dc31c72506
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false # não gerar automaticamente a tabela no banco de dados
+    generate-ddl: true # Gerar automaticamente a tabela no banco de dados
     hibernate:
       ddl-auto: none
     properties:

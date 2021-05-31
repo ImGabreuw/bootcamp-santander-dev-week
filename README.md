@@ -26,6 +26,9 @@
 - [X] Criar a camada **Service**
 - [X] Criar Mapper de conversão
 - [X] Criar Exception Handlers
+- [X] Criar repositório no GitHub
+- [X] Versionar o código fonte
+- [X] Publicar o backend na nuvem (Heroku)
 
 ## ✏️ Modelo conceitual
 
