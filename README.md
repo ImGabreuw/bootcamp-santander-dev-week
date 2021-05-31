@@ -19,6 +19,13 @@
 - [X] Criar as APIs 
 - [X] Documentar as APIs com [OpenAPI](https://www.openapis.org/)
 - [X] Aplicar validações de dados
+- [X] Adicionar o módulo Spring Data JPA
+- [X] Configurar banco de dados (Postgresql)
+- [X] Mapear entidades
+- [X] Criar **Repository**
+- [X] Criar a camada **Service**
+- [X] Criar Mapper de conversão
+- [X] Criar Exception Handlers
 
 ## ✏️ Modelo conceitual
 
@@ -40,6 +47,7 @@
     * Spring Web
     * DevTools
 * Lombok
+* Swagger
 
 ## 🚀 Execução do projeto### Backend
 
