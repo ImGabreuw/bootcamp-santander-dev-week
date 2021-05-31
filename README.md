@@ -5,7 +5,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/ImGabreuw/bootcamp-santander-dev-week?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/ImGabreuw/bootcamp-santander-dev-week?style=for-the-badge)
 
-![logo]()
+<img height="200px" width="300px" src="https://hermes.dio.me/santander/dev-week/logo-dio.svg">
 
 > Projeto desenvolvido durante o evento Santander Dev Week
 
