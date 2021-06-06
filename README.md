@@ -30,10 +30,6 @@
 - [X] Versionar o código fonte
 - [X] Publicar o backend na nuvem (Heroku)
 
-## ✏️ Modelo conceitual
-
-![modelo-conceitual]()
-
 ## 💻 Pré-requisitos
 
 * Java 11 ou superior
